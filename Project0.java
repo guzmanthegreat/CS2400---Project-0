@@ -20,5 +20,6 @@ public class Project0 {
                 System.out.println("Congratulations! You guessed the number.");
             }
         }
+        scnr.close();
     }
 }
