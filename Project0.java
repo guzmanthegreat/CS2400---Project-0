@@ -10,7 +10,7 @@ public class Project0 {
 
         while (userGuess != randomNum) {
             System.out.print("Guess a number between 1 and 10: ");
-            userGuess = scnr.nextInt();
+            userGuess = scnr.nextDouble();
 
             if (userGuess < randomNum) {
                 System.out.println("Too low! Try again.");
@@ -20,6 +20,5 @@ public class Project0 {
                 System.out.println("Congratulations! You guessed the number.");
             }
         }
-        scnr.close();
     }
 }
